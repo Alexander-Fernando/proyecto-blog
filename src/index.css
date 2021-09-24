@@ -1,0 +1,38 @@
+.port {
+    background: url("./video/Mibaner.gif");
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    grid-template-areas: 
+    ". . . . ."
+    ". . . . ."
+    ". . . . ."
+    ". . . . ."
+    ". . . . ."
+    ". prim . seg ."
+    ". . . . .";
+}
+
+.prim{
+    grid-area: prim;
+    /* align-items: center; */
+}
+.seg{
+    grid-area: seg;
+    /* align-items: center; */
+}
+.boton1{
+    background: url("./video/Miotrogif.gif");
+    background-size: 100% 100%;
+}
+.boton2{
+    background: url("./video/Miotrogif.gif");
+    background-size: 100% 100%;
+}
+
+
+
