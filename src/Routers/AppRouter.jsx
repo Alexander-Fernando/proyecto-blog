@@ -1,14 +1,18 @@
 import React from 'react'
 import {Switch, Route, Redirect} from 'react-router-dom';
-import Pagina2 from '../Componentes/Pagina2';
-import Pagina3 from '../Componentes/Pagina3';
+import Login from '../Componentes/Login';
+import PortadaH from '../Componentes/PortadaH';
+import PortadaV from '../Componentes/PortadaV';
+import Registro from '../Componentes/Registro';
 
 const AppRouter = () => {
     return (
         <>
             <Switch>
-                <Route exact path="/pagina2" component={Pagina2} />
-                <Route exact path="/pagina3" component={Pagina3} />
+                <Route exact path="/portadaH" component={PortadaH} />
+                <Route exact path="/portadaV" component={PortadaV} />
+                <Route exact path="/login" component={Login} />
+                <Route exact path="/registro" component={Registro} />
 
                 <Redirect to="/inicio" />
             </Switch>
